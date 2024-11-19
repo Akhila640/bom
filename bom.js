@@ -22,6 +22,7 @@ loginbtn.addEventListener("click",()=>{
     let pswdstorage=localStorage.getItem("pswd")
     let inputusername=document.getElementById("UserName").value
     let inputuserpswd=document.getElementById("UserPswd").value
+    document.body.style.backgroundColor="lightblue";
     if(namestorage==inputusername && pswdstorage==inputuserpswd){
         alert("login done successfully!!!!!!!")
         setTimeout(()=>{
